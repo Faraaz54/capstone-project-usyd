@@ -1,0 +1,60 @@
+dataset description
+
+currency exchange columns
+
+eur--USD/EUR(Euro) exchange rate
+jpy--USD/JPY(japanese yen) exchange rate
+chf--USD/CHF(swiss francs) exchange rate
+cny--USD/CNY(chinese yuan) exchange rate
+gbp--USD/GBP(British Pound) exchange rate
+
+data source:-https://www.ofx.com/en-au/forex-news/historical-exchange-rates/
+
+stock exchange columns
+
+SP500- (an American stock market index based on the market capitalizations of 500 large companies having common stock listed on the NYSE or NASDAQ)
+SSE-(SSE Index is a stock market index of all stocks that are traded at the Shanghai Stock Exchange)
+Nikkei-(the Nikkei index, or the Nikkei Stock Average, is a stock market index for the Tokyo Stock Exchange)
+Nasdaq-(the NASDAQ Composite is a stock market index of the common stocks and similar securities listed on the NASDAQ stock market.)
+FTSE-(is a share index of the 100 companies listed on the London Stock Exchange with the highest market capitalisation.)
+Eurostoxx-(The EURO STOXX 50 is a stock index of Eurozone stocks designed by STOXX)
+Vix-(The CBOE Volatility Index, known by its ticker symbol VIX, is a popular measure of the stock market's expectation of volatility implied by S&P 500 index options)
+DowJones-(The Dow Jones Industrial Average, or simply the Dow, is a stock market index that shows how 30 large, publicly owned companies based in the United States)
+
+these columns would help us gauge the performance of the economy in its respective countries and also investr's sentiment at a given point in time.
+
+data source:-1)https://query1.finance.yahoo.com/v7/finance/
+	     2)https://fred.stlouisfed.org
+
+
+crude oil and gold price columns
+
+crudeoil-Crude Oil (petroleum), West Texas Intermediate 40 API, Midland Texas, US$ per barrel
+gold price-gold price in US dollars
+
+data source(crude-oil):https://fred.stlouisfed.org/graph/fredgraph.csv?chart_type=line&recession_bars=on&log_scales=&bgcolor=%23e1e9f0&graph_bgcolor=%23ffffff&fo=Open+Sans&ts=12&tts=12&txtcolor=%23444444&show_legend=yes&show_axis_titles=yes&drp=0&cosd=2018-01-30&coed=2018-05-13&height=450&stacking=&range=Custom&mode=fred&id=DCOILWTICO&transformation=lin&nd=1986-01-02&ost=-99999&oet=99999&lsv=&lev=&mma=0&fml=a&fgst=lin&fgsnd=2009-06-01&fq=Daily&fam=avg&vintage_date=&revision_date=&line_color=%234572a7&line_style=solid&lw=2&scale=left&mark_type=none&mw=2&width=1168
+
+data source(gold):https://www.quandl.com/api/v1/datasets/LBMA/GOLD.csv
+
+blockchain_info columns
+
+cost_%_trans_vol-miners revenue as percentage of the transaction volume.
+difficulty-A relative measure of how difficult it is to find a new block.
+est_trans_vol_usd-estimated transaction volume in US Dollars
+hash_rate-The estimated number of tera hashes per second the Bitcoin network is performing.
+market_cap-The total USD value of bitcoin supply in circulation.
+median_confirm_time-The median time for a transaction to be accepted into a mined block.
+miner_revenue-Total value of coinbase block rewards and transaction fees paid to miners.
+trans/block-The average number of transactions per block.
+Confirmed_transactions-The aggregate number of confirmed Bitcoin transactions in the past 24 hours.
+
+data source:quandl api using python
+
+news_data
+
+sentiment-sentiment value ranging from -1 to +1 indicating the polarity of a news headline as positive,neagative or neutral
+
+data source:-coindesk.com
+	     https://kth.diva-portal.org/smash/get/diva2:1110776/FULLTEXT01.pdf
+
+
